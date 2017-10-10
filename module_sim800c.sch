@@ -1,0 +1,759 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
+LIBS:Symbols_EN60617_13Mar2013
+LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
+LIBS:Symbols_ICs-Diskrete_RevD10
+LIBS:Symbols_ICs-Opto_RevB_16Sep2013
+LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
+LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
+LIBS:Symbols_Socket-DIN41612_RevA
+LIBS:Symbols_Transformer-Diskrete_RevA
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:hc11
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:maxim
+LIBS:mechanical
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:zetex
+LIBS:Zilog
+LIBS:cardslot
+LIBS:sim800c
+LIBS:esp32-gateway-hw-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C C?
+U 1 1 59DC615E
+P 6550 2200
+F 0 "C?" H 6575 2300 50  0000 L CNN
+F 1 "104" H 6575 2100 50  0000 L CNN
+F 2 "" H 6588 2050 50  0001 C CNN
+F 3 "" H 6550 2200 50  0001 C CNN
+	1    6550 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 7111S2015X02LF P?
+U 1 1 59DC615F
+P 6800 2700
+F 0 "P?" H 6750 3050 50  0000 L BNN
+F 1 "simcard" H 6750 2300 50  0000 L BNN
+F 2 "FCI_7111S2015X02LF" H 6800 2700 50  0001 L BNN
+F 3 "Hinge and Cover; Flip Top; for PortableEnvironments; SMT; S Series; Lead Free" H 6800 2700 50  0001 L BNN
+F 4 "7111S2015X02LF" H 6800 2700 50  0001 L BNN "MP"
+F 5 "None" H 6800 2700 50  0001 L BNN "Package"
+F 6 "FCI" H 6800 2700 50  0001 L BNN "MF"
+F 7 "609-1401-1-ND" H 6800 2700 50  0001 L BNN "Digi-Key_Part_Number"
+F 8 "https://www.digikey.com/product-detail/en/amphenol-fci/7111S2015X02LF/609-1401-1-ND/1002961?WT.z_cid=ref_snapeda" H 6800 2700 50  0001 L BNN "Digi-Key_Purchase_URL"
+	1    6800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59DC6160
+P 6350 3100
+F 0 "C?" H 6375 3200 50  0000 L CNN
+F 1 "22pF" H 6375 3000 50  0000 L CNN
+F 2 "" H 6388 2950 50  0001 C CNN
+F 3 "" H 6350 3100 50  0001 C CNN
+	1    6350 3100
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	9650 3400 9650 3350
+Wire Wire Line
+	6050 2750 6200 2750
+Wire Wire Line
+	6200 2750 6200 2850
+Wire Wire Line
+	6200 2850 6600 2850
+Wire Wire Line
+	6050 2450 6600 2450
+Wire Wire Line
+	6050 2550 6600 2550
+Wire Wire Line
+	6050 2650 6600 2650
+Wire Wire Line
+	6550 2350 6550 2450
+Connection ~ 6550 2450
+Wire Wire Line
+	6350 2950 6350 2850
+Connection ~ 6350 2850
+$Comp
+L GND #PWR?
+U 1 1 59DC6161
+P 6450 4400
+F 0 "#PWR?" H 6450 4150 50  0001 C CNN
+F 1 "GND" H 6450 4250 50  0000 C CNN
+F 2 "" H 6450 4400 50  0001 C CNN
+F 3 "" H 6450 4400 50  0001 C CNN
+	1    6450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59DC6162
+P 6850 2050
+F 0 "#PWR?" H 6850 1800 50  0001 C CNN
+F 1 "GND" H 6850 1900 50  0000 C CNN
+F 2 "" H 6850 2050 50  0001 C CNN
+F 3 "" H 6850 2050 50  0001 C CNN
+	1    6850 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2050 6550 1950
+Wire Wire Line
+	6550 1950 6850 1950
+Wire Wire Line
+	6850 1950 6850 2050
+Wire Wire Line
+	6050 4350 6450 4350
+Wire Wire Line
+	6450 4350 6450 4400
+$Comp
+L GND #PWR?
+U 1 1 59DC6163
+P 6350 3350
+F 0 "#PWR?" H 6350 3100 50  0001 C CNN
+F 1 "GND" H 6350 3200 50  0000 C CNN
+F 2 "" H 6350 3350 50  0001 C CNN
+F 3 "" H 6350 3350 50  0001 C CNN
+	1    6350 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3350 6350 3250
+$Comp
+L R R?
+U 1 1 59DC6164
+P 3650 3800
+F 0 "R?" V 3730 3800 50  0000 C CNN
+F 1 "R" V 3650 3800 50  0000 C CNN
+F 2 "" V 3580 3800 50  0001 C CNN
+F 3 "" H 3650 3800 50  0001 C CNN
+	1    3650 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 59DC6165
+P 3450 4000
+F 0 "C?" H 3475 4100 50  0000 L CNN
+F 1 "C" H 3475 3900 50  0000 L CNN
+F 2 "" H 3488 3850 50  0001 C CNN
+F 3 "" H 3450 4000 50  0001 C CNN
+	1    3450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59DC6166
+P 3850 4000
+F 0 "C?" H 3875 4100 50  0000 L CNN
+F 1 "C" H 3875 3900 50  0000 L CNN
+F 2 "" H 3888 3850 50  0001 C CNN
+F 3 "" H 3850 4000 50  0001 C CNN
+	1    3850 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3850 3450 3800
+Wire Wire Line
+	3300 3800 3500 3800
+Wire Wire Line
+	3800 3800 4100 3800
+Wire Wire Line
+	3850 3800 3850 3850
+Wire Wire Line
+	3450 4150 3450 4200
+Wire Wire Line
+	3300 4200 3850 4200
+Wire Wire Line
+	3850 4200 3850 4150
+$Comp
+L GND #PWR?
+U 1 1 59DC6167
+P 3650 4250
+F 0 "#PWR?" H 3650 4000 50  0001 C CNN
+F 1 "GND" H 3650 4100 50  0000 C CNN
+F 2 "" H 3650 4250 50  0001 C CNN
+F 3 "" H 3650 4250 50  0001 C CNN
+	1    3650 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4250 3650 4200
+Connection ~ 3650 4200
+$Comp
+L LEMO2 J?
+U 1 1 59DC6168
+P 3000 3850
+F 0 "J?" H 3000 4050 50  0000 C CNN
+F 1 "LEMO2" H 3000 3650 50  0000 C CNN
+F 2 "" H 3000 3850 50  0001 C CNN
+F 3 "" H 3000 3850 50  0001 C CNN
+	1    3000 3850
+	-1   0    0    1   
+$EndComp
+Connection ~ 3450 3800
+Wire Wire Line
+	3300 3900 3300 4200
+Connection ~ 3450 4200
+$Comp
+L R R?
+U 1 1 59DC6169
+P 6300 4050
+F 0 "R?" V 6380 4050 50  0000 C CNN
+F 1 "330" V 6300 4050 50  0000 C CNN
+F 2 "" V 6230 4050 50  0001 C CNN
+F 3 "" H 6300 4050 50  0001 C CNN
+	1    6300 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 59DC616A
+P 6650 4050
+F 0 "D?" H 6650 4150 50  0000 C CNN
+F 1 "LED" H 6650 3950 50  0000 C CNN
+F 2 "" H 6650 4050 50  0001 C CNN
+F 3 "" H 6650 4050 50  0001 C CNN
+	1    6650 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6050 4050 6150 4050
+Wire Wire Line
+	6450 4050 6500 4050
+$Comp
+L R R?
+U 1 1 59DC616B
+P 4000 2750
+F 0 "R?" V 4080 2750 50  0000 C CNN
+F 1 "10K" V 4000 2750 50  0000 C CNN
+F 2 "" V 3930 2750 50  0001 C CNN
+F 3 "" H 4000 2750 50  0001 C CNN
+	1    4000 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 2750 3850 2750
+Wire Wire Line
+	4150 2750 4250 2750
+Wire Wire Line
+	6050 2050 6250 2050
+Wire Wire Line
+	6150 2050 6150 2150
+Wire Wire Line
+	6150 2150 6050 2150
+NoConn ~ 6050 2250
+NoConn ~ 6050 2950
+NoConn ~ 6050 3350
+NoConn ~ 6050 3450
+NoConn ~ 4250 3450
+NoConn ~ 6050 3750
+NoConn ~ 4250 3350
+NoConn ~ 4250 2550
+NoConn ~ 5250 3100
+$Comp
+L R R?
+U 1 1 59DC616C
+P 3550 2050
+F 0 "R?" V 3630 2050 50  0000 C CNN
+F 1 "1k" V 3450 2050 50  0000 C CNN
+F 2 "" V 3480 2050 50  0001 C CNN
+F 3 "" H 3550 2050 50  0001 C CNN
+	1    3550 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59DC616D
+P 3550 2150
+F 0 "R?" V 3630 2150 50  0000 C CNN
+F 1 "1K" V 3700 2150 50  0000 C CNN
+F 2 "" V 3480 2150 50  0001 C CNN
+F 3 "" H 3550 2150 50  0001 C CNN
+	1    3550 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59DC616E
+P 3850 2350
+F 0 "R?" V 3930 2350 50  0000 C CNN
+F 1 "5,6K" V 3950 2450 50  0000 C CNN
+F 2 "" V 3780 2350 50  0001 C CNN
+F 3 "" H 3850 2350 50  0001 C CNN
+	1    3850 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 59DC616F
+P 3950 2350
+F 0 "R?" V 4030 2350 50  0000 C CNN
+F 1 "5,6K" V 3850 2450 50  0000 C CNN
+F 2 "" V 3880 2350 50  0001 C CNN
+F 3 "" H 3950 2350 50  0001 C CNN
+	1    3950 2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3700 2050 4250 2050
+Wire Wire Line
+	3700 2150 4250 2150
+Wire Wire Line
+	3850 2200 3850 2150
+Connection ~ 3850 2150
+Wire Wire Line
+	3950 2200 3950 2050
+Connection ~ 3950 2050
+$Comp
+L GND #PWR?
+U 1 1 59DC6170
+P 3900 2550
+F 0 "#PWR?" H 3900 2300 50  0001 C CNN
+F 1 "GND" H 3900 2400 50  0000 C CNN
+F 2 "" H 3900 2550 50  0001 C CNN
+F 3 "" H 3900 2550 50  0001 C CNN
+	1    3900 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2500 3850 2550
+Wire Wire Line
+	3850 2550 3950 2550
+Wire Wire Line
+	3950 2550 3950 2500
+Connection ~ 3900 2550
+Text GLabel 3300 2050 0    60   BiDi ~ 0
+TXD
+Text GLabel 3300 2150 0    60   BiDi ~ 0
+RXD
+Wire Wire Line
+	3300 2050 3400 2050
+Wire Wire Line
+	3400 2150 3300 2150
+NoConn ~ 4250 2650
+NoConn ~ 4250 3650
+NoConn ~ 4250 3850
+NoConn ~ 4250 3950
+NoConn ~ 4250 4050
+NoConn ~ 4250 4350
+NoConn ~ 6050 3950
+NoConn ~ 6050 3650
+Wire Wire Line
+	4100 3800 4100 4250
+Wire Wire Line
+	4100 4250 4250 4250
+Connection ~ 3850 3800
+$Comp
+L CONN_01X04 J?
+U 1 1 59DC6171
+P 3950 3100
+F 0 "J?" H 3950 3350 50  0000 C CNN
+F 1 "CONN_01X04" V 4050 3100 50  0000 C CNN
+F 2 "" H 3950 3100 50  0001 C CNN
+F 3 "" H 3950 3100 50  0001 C CNN
+	1    3950 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4250 2950 4150 2950
+Wire Wire Line
+	4150 3050 4250 3050
+Wire Wire Line
+	4250 3150 4150 3150
+Wire Wire Line
+	4150 3250 4250 3250
+$Comp
+L GND #PWR?
+U 1 1 59DC6172
+P 3750 2800
+F 0 "#PWR?" H 3750 2550 50  0001 C CNN
+F 1 "GND" H 3750 2650 50  0000 C CNN
+F 2 "" H 3750 2800 50  0001 C CNN
+F 3 "" H 3750 2800 50  0001 C CNN
+	1    3750 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2800 3750 2750
+NoConn ~ 6600 2750
+NoConn ~ 6600 2950
+$Comp
+L C C?
+U 1 1 59DC6180
+P 6550 2200
+F 0 "C?" H 6575 2300 50  0000 L CNN
+F 1 "104" H 6575 2100 50  0000 L CNN
+F 2 "" H 6588 2050 50  0001 C CNN
+F 3 "" H 6550 2200 50  0001 C CNN
+	1    6550 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 7111S2015X02LF P?
+U 1 1 59DC6181
+P 6800 2700
+F 0 "P?" H 6750 3050 50  0000 L BNN
+F 1 "simcard" H 6750 2300 50  0000 L BNN
+F 2 "FCI_7111S2015X02LF" H 6800 2700 50  0001 L BNN
+F 3 "Hinge and Cover; Flip Top; for PortableEnvironments; SMT; S Series; Lead Free" H 6800 2700 50  0001 L BNN
+F 4 "7111S2015X02LF" H 6800 2700 50  0001 L BNN "MP"
+F 5 "None" H 6800 2700 50  0001 L BNN "Package"
+F 6 "FCI" H 6800 2700 50  0001 L BNN "MF"
+F 7 "609-1401-1-ND" H 6800 2700 50  0001 L BNN "Digi-Key_Part_Number"
+F 8 "https://www.digikey.com/product-detail/en/amphenol-fci/7111S2015X02LF/609-1401-1-ND/1002961?WT.z_cid=ref_snapeda" H 6800 2700 50  0001 L BNN "Digi-Key_Purchase_URL"
+	1    6800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59DC6182
+P 6350 3100
+F 0 "C?" H 6375 3200 50  0000 L CNN
+F 1 "22pF" H 6375 3000 50  0000 L CNN
+F 2 "" H 6388 2950 50  0001 C CNN
+F 3 "" H 6350 3100 50  0001 C CNN
+	1    6350 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59DC6183
+P 6450 4400
+F 0 "#PWR?" H 6450 4150 50  0001 C CNN
+F 1 "GND" H 6450 4250 50  0000 C CNN
+F 2 "" H 6450 4400 50  0001 C CNN
+F 3 "" H 6450 4400 50  0001 C CNN
+	1    6450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59DC6184
+P 6850 2050
+F 0 "#PWR?" H 6850 1800 50  0001 C CNN
+F 1 "GND" H 6850 1900 50  0000 C CNN
+F 2 "" H 6850 2050 50  0001 C CNN
+F 3 "" H 6850 2050 50  0001 C CNN
+	1    6850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59DC6185
+P 6350 3350
+F 0 "#PWR?" H 6350 3100 50  0001 C CNN
+F 1 "GND" H 6350 3200 50  0000 C CNN
+F 2 "" H 6350 3350 50  0001 C CNN
+F 3 "" H 6350 3350 50  0001 C CNN
+	1    6350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59DC6186
+P 3650 3800
+F 0 "R?" V 3730 3800 50  0000 C CNN
+F 1 "R" V 3650 3800 50  0000 C CNN
+F 2 "" V 3580 3800 50  0001 C CNN
+F 3 "" H 3650 3800 50  0001 C CNN
+	1    3650 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 59DC6187
+P 3450 4000
+F 0 "C?" H 3475 4100 50  0000 L CNN
+F 1 "C" H 3475 3900 50  0000 L CNN
+F 2 "" H 3488 3850 50  0001 C CNN
+F 3 "" H 3450 4000 50  0001 C CNN
+	1    3450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59DC6188
+P 3850 4000
+F 0 "C?" H 3875 4100 50  0000 L CNN
+F 1 "C" H 3875 3900 50  0000 L CNN
+F 2 "" H 3888 3850 50  0001 C CNN
+F 3 "" H 3850 4000 50  0001 C CNN
+	1    3850 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59DC6189
+P 3650 4250
+F 0 "#PWR?" H 3650 4000 50  0001 C CNN
+F 1 "GND" H 3650 4100 50  0000 C CNN
+F 2 "" H 3650 4250 50  0001 C CNN
+F 3 "" H 3650 4250 50  0001 C CNN
+	1    3650 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEMO2 J?
+U 1 1 59DC618A
+P 3000 3850
+F 0 "J?" H 3000 4050 50  0000 C CNN
+F 1 "LEMO2" H 3000 3650 50  0000 C CNN
+F 2 "" H 3000 3850 50  0001 C CNN
+F 3 "" H 3000 3850 50  0001 C CNN
+	1    3000 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 59DC618B
+P 6300 4050
+F 0 "R?" V 6380 4050 50  0000 C CNN
+F 1 "330" V 6300 4050 50  0000 C CNN
+F 2 "" V 6230 4050 50  0001 C CNN
+F 3 "" H 6300 4050 50  0001 C CNN
+	1    6300 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 59DC618C
+P 6650 4050
+F 0 "D?" H 6650 4150 50  0000 C CNN
+F 1 "LED" H 6650 3950 50  0000 C CNN
+F 2 "" H 6650 4050 50  0001 C CNN
+F 3 "" H 6650 4050 50  0001 C CNN
+	1    6650 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 59DC618D
+P 4000 2750
+F 0 "R?" V 4080 2750 50  0000 C CNN
+F 1 "10K" V 4000 2750 50  0000 C CNN
+F 2 "" V 3930 2750 50  0001 C CNN
+F 3 "" H 4000 2750 50  0001 C CNN
+	1    4000 2750
+	0    1    1    0   
+$EndComp
+NoConn ~ 6050 2250
+NoConn ~ 6050 2950
+NoConn ~ 6050 3350
+NoConn ~ 6050 3450
+NoConn ~ 4250 3450
+NoConn ~ 6050 3750
+NoConn ~ 4250 3350
+NoConn ~ 4250 2550
+NoConn ~ 5250 3100
+$Comp
+L R R?
+U 1 1 59DC618E
+P 3550 2050
+F 0 "R?" V 3630 2050 50  0000 C CNN
+F 1 "1k" V 3450 2050 50  0000 C CNN
+F 2 "" V 3480 2050 50  0001 C CNN
+F 3 "" H 3550 2050 50  0001 C CNN
+	1    3550 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59DC618F
+P 3550 2150
+F 0 "R?" V 3630 2150 50  0000 C CNN
+F 1 "1K" V 3700 2150 50  0000 C CNN
+F 2 "" V 3480 2150 50  0001 C CNN
+F 3 "" H 3550 2150 50  0001 C CNN
+	1    3550 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59DC6190
+P 3850 2350
+F 0 "R?" V 3930 2350 50  0000 C CNN
+F 1 "5,6K" V 3950 2450 50  0000 C CNN
+F 2 "" V 3780 2350 50  0001 C CNN
+F 3 "" H 3850 2350 50  0001 C CNN
+	1    3850 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 59DC6191
+P 3950 2350
+F 0 "R?" V 4030 2350 50  0000 C CNN
+F 1 "5,6K" V 3850 2450 50  0000 C CNN
+F 2 "" V 3880 2350 50  0001 C CNN
+F 3 "" H 3950 2350 50  0001 C CNN
+	1    3950 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59DC6192
+P 3900 2550
+F 0 "#PWR?" H 3900 2300 50  0001 C CNN
+F 1 "GND" H 3900 2400 50  0000 C CNN
+F 2 "" H 3900 2550 50  0001 C CNN
+F 3 "" H 3900 2550 50  0001 C CNN
+	1    3900 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 3300 2050 0    60   BiDi ~ 0
+TXD
+Text GLabel 3300 2150 0    60   BiDi ~ 0
+RXD
+NoConn ~ 4250 2650
+NoConn ~ 4250 3650
+NoConn ~ 4250 3850
+NoConn ~ 4250 3950
+NoConn ~ 4250 4050
+NoConn ~ 4250 4350
+NoConn ~ 6050 3950
+NoConn ~ 6050 3650
+$Comp
+L CONN_01X04 J?
+U 1 1 59DC6193
+P 3950 3100
+F 0 "J?" H 3950 3350 50  0000 C CNN
+F 1 "CONN_01X04" V 4050 3100 50  0000 C CNN
+F 2 "" H 3950 3100 50  0001 C CNN
+F 3 "" H 3950 3100 50  0001 C CNN
+	1    3950 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59DC6194
+P 3750 2800
+F 0 "#PWR?" H 3750 2550 50  0001 C CNN
+F 1 "GND" H 3750 2650 50  0000 C CNN
+F 2 "" H 3750 2800 50  0001 C CNN
+F 3 "" H 3750 2800 50  0001 C CNN
+	1    3750 2800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6600 2750
+NoConn ~ 6600 2950
+$Comp
+L SIM800C-RESCUE-esp32-gateway-hw U?
+U 1 1 59DC6D07
+P 5150 3150
+F 0 "U?" H 4449 4371 50  0000 L BNN
+F 1 "SIM800C-RESCUE-esp32-gateway-hw" H 4449 1727 50  0000 L BNN
+F 2 "." H 6950 2650 50  0001 L BNN
+F 3 "." H 6200 3300 50  0001 L BNN
+F 4 "." H 4850 3650 50  0001 L BNN "Availability"
+F 5 "SIM800C" H 5000 3300 50  0001 L BNN "MP"
+F 6 "." H 5000 2950 50  0001 L BNN "Price"
+F 7 "." H 5050 2950 50  0001 L BNN "Package"
+F 8 "." H 5150 3150 50  0001 L BNN "MF"
+	1    5150 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 6250 1750 1    60   Input ~ 0
+5V
+Wire Wire Line
+	6250 2050 6250 1750
+Connection ~ 6150 2050
+$EndSCHEMATC
